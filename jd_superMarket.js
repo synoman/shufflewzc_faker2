@@ -1637,8 +1637,6 @@ function jsonParse(str) {
 }
 //==========================以下是给作者助力 免费拿,省钱大赢家等活动======================
 async function helpAuthor() {
-  await barGain();//免费拿
-  await bigWinner();//省钱大赢家
 }
 async function barGain() {
   let res = await getAuthorShareCode2('https://raw.githubusercontent.com/Aaron-lv/updateTeam/master/shareCodes/jd_barGain.json')
